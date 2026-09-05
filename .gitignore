@@ -1,0 +1,30 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter Notebooks checkpoint
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Data (if large)
+data/*.csv
+data/*.xlsx
+data/*.db
+
+# Outputs (if you don't want to commit generated plots)
+# outputs/*.png
+# outputs/*.jpg
+
+# OS
+.DS_Store
+Thumbs.db
